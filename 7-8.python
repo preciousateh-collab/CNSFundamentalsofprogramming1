@@ -1,0 +1,11 @@
+sandwich_orders = ['tuna sandwich', 'chicken sandwich', 'veggie sandwich', 'egg sandwich']
+finished_sandwiches = []
+
+while sandwich_orders:
+    current_sandwich = sandwich_orders.pop(0)
+    print(f"i made your {current_sandwich}.")
+    finished_sandwiches.append(current_sandwich)
+
+print("\nall sandwiches that were made:")
+for sandwich in finished_sandwiches:
+    print(sandwich)
